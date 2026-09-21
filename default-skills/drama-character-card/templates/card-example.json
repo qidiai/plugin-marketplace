@@ -1,0 +1,43 @@
+{
+  "id": "CH-01",
+  "name": "示例角色",
+  "aliases": ["示例姐"],
+  "tier": "protagonist",
+  "one_liner": "外冷内热的王牌律师，为查妹妹死因潜入对手律所",
+  "anchors": [
+    "黑色高马尾，发尾齐肩",
+    "左眼角下一颗小痣",
+    "颈间红丝带系银色细链"
+  ],
+  "locks": [
+    {
+      "face": "black high ponytail with silver ribbon",
+      "scope": "EP01"
+    },
+    {
+      "face": "red silk ribbon choker with thin silver chain",
+      "scope": "EP01"
+    }
+  ],
+  "identity_block": "[IDENTITY] character_id: CH-01, fixed character design,\ncharacter must remain consistent across all generations,\n\n[FACE] black high ponytail with silver ribbon, hair ends at shoulder,\ndark brown sharp eyes, small mole under left eye,\nexpression: composed, unreadable,\n\n[ATTIRE] charcoal grey tailored blazer, white silk shirt,\nred silk ribbon choker with thin silver chain,\n\n[NEGATIVE] not photorealistic, not cinematic",
+  "image_prompt": "[IDENTITY] character_id: CH-01, fixed character design, character must remain consistent across all generations, [FACE] black high ponytail with silver ribbon, hair ends at shoulder, dark brown sharp eyes, small mole under left eye, expression: composed, [ATTIRE] charcoal grey tailored blazer, white silk shirt, red silk ribbon choker with thin silver chain, [LAYOUT] character reference sheet, three-zone layout: left waist-up portrait as face design baseline, top-right full body front side back views with identical face, bottom-row 4 detail close-ups of eyes accessory footwear hand prop, single character per zone, identical character in all zones, NO text labels, NO watermarks, [STYLE] semi-realistic thick-paint anime style, neutral studio lighting flat even, solid pastel grey background, [NEGATIVE] not photorealistic, not cinematic, not multiple characters",
+  "variants": [
+    { "name": "日常律师装", "episodes": "EP01-EP09", "delta": "charcoal blazer + white shirt" },
+    { "name": "潜入夜行装", "episodes": "EP10-EP12", "delta": "black hooded jacket，摘下红丝带锁面，换 black canvas jacket with zip pocket" }
+  ],
+  "voice": {
+    "timbre_prompt": "calm female voice, low register, measured pace, faint warmth when speaking to family, English timbre prompt for TTS engines",
+    "catchphrases": ["这次，换我。", "证据呢？", "签字之前，想清楚。"]
+  },
+  "persona": {
+    "contrast": "庭上冷面女王，私下为妹妹的旧照片掉泪",
+    "five_closeups": [
+      "摸颈间红丝带 — 展示「冷静」",
+      "笑着递文件，转身眼神冷下来 — 展示「表里不一」",
+      "一眼点破合同陷阱 — 展示「法律敏锐」",
+      "盯着童年照片走神 — 展示「情感软肋」",
+      "撕掉和解书 — 展示「复仇决心」"
+    ],
+    "signature_moves": ["推眼镜前先用指腹擦一下镜片", "签字时把笔转半圈"]
+  }
+}
