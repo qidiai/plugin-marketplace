@@ -1,0 +1,20 @@
+{
+  "name": "qidi-official-marketplace",
+  "description": "QIDI Work 官方技能市场：官方策划的 skill 与插件。default-skills/ 会随客户端自动同步，plugins/ 需用户主动安装。",
+  "owner": {
+    "name": "QIDI",
+    "email": "admin@qidiai.ltd"
+  },
+  "plugins": [
+    {
+      "name": "qidi-guide",
+      "version": "1.0.0",
+      "description": "QIDI Work 使用入门：技能、插件与市场的基本概念和常用命令。",
+      "category": "productivity",
+      "author": { "name": "QIDI" },
+      "source": "./plugins/qidi-guide",
+      "tags": ["getting-started", "guide"],
+      "keywords": ["入门", "使用指南", "marketplace", "skill"]
+    }
+  ]
+}
